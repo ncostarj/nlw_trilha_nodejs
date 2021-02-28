@@ -1,0 +1,2 @@
+package.json
+    "posttest": "rm ./src/database/database.test.sqlite"

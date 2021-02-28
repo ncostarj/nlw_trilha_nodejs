@@ -4,7 +4,7 @@ import { Survey } from "./Survey";
 import { User } from "./User";
 
 @Entity("surveys_users")
-class SurveyUser {
+export class SurveyUser {
 
   @PrimaryColumn()
   readonly id: string;
@@ -35,5 +35,3 @@ class SurveyUser {
     }
   }
 }
-
-export { SurveyUser };
